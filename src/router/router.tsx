@@ -55,7 +55,7 @@ export default function AppRouter({ mode }: AppRouterProps) {
       children: [
         {
           path: "dashboard",
-          element: <DashboardPage mode={mode} />,
+          element: <DashboardPage mode={mode} email={email} />,
         },
         {
           path: "home",
