@@ -1,0 +1,10 @@
+#root {
+  margin: 0 auto;
+  text-decoration: none;
+  min-height: 100vh;
+}
+
+img {
+  max-width: 5%;
+  height: auto;
+}
