@@ -25,10 +25,6 @@ export default function Sidebar({ mode }: SidebarProps) {
     navigate(page);
   };
 
-  const handleExit = () => {
-    window.location.reload();
-  };
-
   return (
     <div
       className={`d-flex flex-column p-3 h-100 border-end ${mode ? 'bg-dark text-white' : 'bg-light text-dark'}`}
