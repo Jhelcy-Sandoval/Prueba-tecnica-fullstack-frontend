@@ -1,1 +1,1 @@
-export const ApiURL = "https://prueba-tecnica-fullstack-backend.onrender.com";
+export const ApiURL = "https://prueba-tecnica-fullstack-backend.onrender.com/api/";
